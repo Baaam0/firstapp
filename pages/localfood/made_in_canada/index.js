@@ -3,6 +3,7 @@ import MainMenu from "../../../comps/MainMenu";
 import Local_relatedpage_top from "../../../comps/Localfood/LocalRelatedpageTop";
 import Local_detail_item from "../../../comps/Localfood/LocalDetailItem";
 import styled from 'styled-components';
+import SideNav_local from "../../../comps/Navbar/SideNav_local";
 
 const LocalWrap = styled.div`
     background:#E0E8FD;
@@ -39,6 +40,15 @@ export default function LocalFood(){
         <MainMenu></MainMenu>
 
         <HowToCatTtl>Made in Canada</HowToCatTtl>
+
+<SideNav_local
+        bcl="#A2B0D3"
+        index1="Local Food"
+        index2="Vegan Logo"
+        index3="Made in Canada"
+        index4="Seasonal Food"
+        mar="13em 1em"
+        ></SideNav_local>
 
         <Local_relatedpage_top
                 img="/localfood/3_made_in_canada/madeInCanada.jpg"
