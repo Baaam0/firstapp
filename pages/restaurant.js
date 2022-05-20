@@ -14,7 +14,7 @@ export default function Restaurant(){
         <h1>Restaurant</h1>
 
         <ImgCard
-        img="/restaurant.png"
+        img="/Restaurant.png"
         bg="#E0E8FD"/>
 
 

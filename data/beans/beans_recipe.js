@@ -6,7 +6,7 @@ export const numDatabase = [
   "5"
 ]
 
-export const tofu1Database = [
+export const recipeDatabase = [
   [
     "Saute the onions and cumin seeds in oil or water/broth, until onions are browned around the edges.",
     "Toss in the ginger and garlic, cook for 1 to 2 minutes.",

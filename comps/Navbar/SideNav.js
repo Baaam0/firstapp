@@ -35,12 +35,12 @@ export default function SideNav({
   return <SideCont margin={mar}>
     
     <NavButton onClick = {
-      ()=>r.push("recipes")
+      ()=>r.push("/recipes")
     }>
     {index1}</NavButton>    
     
     <NavButton onClick = {
-      ()=>r.push("beans")
+      ()=>r.push("/beans")
     }>
     {index2}</NavButton>    
     

@@ -48,19 +48,21 @@ export default function Recipes(){
             img={imgDatabase[0]}
             title={titleDatabase[0]}
             paragraph={paraDatabase[0]}
+            path="../beans/beans_re_1"
             />
 
             <RecipeCard
             img={imgDatabase[1]}
             title={titleDatabase[1]}
             paragraph={paraDatabase[1]}
-            path="../RD_Tofu2"
+            path="../beans/beans_re_2"
             />
 
             <RecipeCard
             img={imgDatabase[2]}
             title={titleDatabase[2]}
             paragraph={paraDatabase[2]}
+            path="../beans/beans_re_3"
             />
 
         </BgChange>
