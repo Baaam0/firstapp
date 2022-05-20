@@ -49,10 +49,5 @@ export default function SideNav_local({
     }>
     {index3}</NavButton>
 
-    <NavButton onClick = {
-      ()=>r.push("/localfood/seasonal_food")
-    }>
-    {index3}</NavButton>
-
   </SideCont>
 }
