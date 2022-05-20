@@ -3,6 +3,7 @@ import MainMenu from "../../../comps/MainMenu";
 import Local_card from "../../../comps/Localfood/LocalCard";
 import styled from 'styled-components';
 import SideNav from "../../../comps/Navbar/SideNav";
+import TopBtn from "../../../comps/TopBtn";
 
 const LocalWrap = styled.div`
     background: #E0E8FD;
@@ -42,13 +43,13 @@ export default function LocalFood(){
 
         <HowToCatTtl>Local Food</HowToCatTtl>
 
-        <SideNav 
+        <SideNav
         bcl="#A2B0D3"
         index1="Local Food"
         index2="Vegan Logo"
         index3="Made in Canada"
         index4="Seasonal Food"
-        mar="5em 1em"
+        mar="13em 1em"
         ></SideNav>
 
         <LocalCardCont>
@@ -75,23 +76,17 @@ export default function LocalFood(){
             />
 
             <Local_card
-                img="/localfood/seafood.jpg"
-                cardttl="4. Local Seafood"
-                paragraph="Places in Vancouver where you can buy local seafood"
-                path="/seafood"
-            />
-
-            <Local_card
                 img="/localfood/farmToTable.jpg"
-                cardttl="5. Farm-to-Table"
+                cardttl="4. Farm-to-Table"
                 paragraph="Farm-to-table restaurants in Vancouver"
                 path="/farmToTable"
             />
         </LocalCardCont>
 
         </Container>
-        
-        <Navbar 
+
+        <TopBtn />
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>

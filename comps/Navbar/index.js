@@ -12,6 +12,7 @@ const NavBottom = styled.div`
     padding: 1em;
     background-color: white;
     z-index: 101;
+    width: 100%;
 `;
 
 const Button = styled.button`
@@ -29,7 +30,7 @@ export default function Navbar({
     img0="/logo0.png",
     img1="/logo1.png",
     img2="/logo2.png",
-    img3="/logo3.png"
+    img3="/logo3.png",
 }){
 
     const r = useRouter();

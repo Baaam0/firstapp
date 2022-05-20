@@ -3,6 +3,7 @@ import MainMenu from "../../../comps/MainMenu";
 import Local_detail_top from "../../../comps/Localfood/LocalDetails";
 import Local_detail_item from "../../../comps/Localfood/LocalDetailItem";
 import styled from 'styled-components';
+import TopBtn from "../../../comps/TopBtn";
 
 const LocalWrap = styled.div`
     background:#fff;
@@ -49,6 +50,7 @@ export default function LocalFood(){
         <LocalDetailItemCont>
             <Local_detail_item
                 img="/localfood/1_local_food/vegano.jpg"
+                bgc="#E0E8FD"
                 itemttl="Vegano"
                 itemurl="https://veganofoods.com/"
                 itemheading="What you can do with them"
@@ -64,7 +66,8 @@ export default function LocalFood(){
 
         </LocalDetailItemCont>
 
-        <Navbar 
+        <TopBtn />
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>

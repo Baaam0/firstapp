@@ -4,6 +4,7 @@ import MainMenu from "../../../comps/MainMenu";
 import Local_detail_top from "../../../comps/Localfood/LocalDetails";
 import Local_detail_item from "../../../comps/Localfood/LocalDetailItem";
 import styled from 'styled-components';
+import TopBtn from "../../../comps/TopBtn";
 
 const LocalWrap = styled.div`
     background:#fff;
@@ -43,13 +44,14 @@ export default function LocalFood(){
 
         <Local_detail_top
                 img="/localfood/farmToTable.jpg"
-                pagettl="5. Farm-to-Table"
+                pagettl="4. Farm-to-Table"
                 descTxt="Farm-to-table restaurants in Vancouver"
             />
 
         <LocalDetailItemCont>
             <Local_detail_item
                 img="/localfood/1_local_food/farmToTable.jpg"
+                bgc="#E0E8FD"
                 itemttl="FARM TO TABLE MARKET"
                 itemurl="https://farmtotablefinefoods.ca/"
                 // itemheading="ー　Vegan Category"
@@ -68,7 +70,8 @@ export default function LocalFood(){
 
         </LocalDetailItemCont>
 
-        <Navbar 
+        <TopBtn />
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>

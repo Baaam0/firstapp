@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.boxAnimation{
+    animation: box 3s ease .5s infinite normal forwards;
+}

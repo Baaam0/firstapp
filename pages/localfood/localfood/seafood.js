@@ -4,6 +4,7 @@ import MainMenu from "../../../comps/MainMenu";
 import Local_detail_top from "../../../comps/Localfood/LocalDetails";
 import Local_detail_item from "../../../comps/Localfood/LocalDetailItem";
 import styled from 'styled-components';
+import TopBtn from "../../../comps/TopBtn";
 
 const LocalWrap = styled.div`
     background:#fff;
@@ -57,7 +58,7 @@ export default function LocalFood(){
 
         </LocalDetailItemCont>
 
-        <Navbar 
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>
