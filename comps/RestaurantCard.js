@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ReCont = styled.div`
 background-color:white;
-width:500px;
+width:100%;
 position:relative;
 height: 250px;
 top:50px;
@@ -61,26 +61,26 @@ export default function RestaurantCard({
     bg="#E0E8FD",
     h2="Veg Out",
     txt="Small, vegan food truck that offers burgers, wings, fries and shakes. Located near Brentwood skytrain station",
-    
+
 
 }){
 
-    return <ReCont 
+    return <ReCont
     cl={bg} txt={txt}>
     <Title>{h2}</Title>
     <Button img src="/start rating.png"></Button>
     <ResItem>
-    
+
         <ReImg src={img}></ReImg>
-        
+
         <Text>{txt}</Text>
-       
-       
+
+
     </ResItem>
-    
-    
+
+
     </ReCont>
-    
+
 }
 
 
@@ -88,8 +88,5 @@ export default function RestaurantCard({
     //return(
    //     <img src="/veg out.png" />
    // )
-   
+
 //}
-
-
-
