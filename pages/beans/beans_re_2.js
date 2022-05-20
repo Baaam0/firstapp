@@ -52,12 +52,11 @@ export default function RecipesDetail({
         bcl="#A2B0D3"
         index1="Tofu"
         index2="Beans"
-        index3="Grains"
-        index4="Quinoa"
+        index3="Quinoa"
         ></SideNav>
 
       <IngBox 
-      img={imgDatabase[1]}
+      img={"/beans2s.jpg"}
       common={commDatabase[1]}
       rare1={rareDatabase[1][0]}
       rare2={rareDatabase[1][1]}

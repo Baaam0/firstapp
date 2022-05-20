@@ -44,11 +44,11 @@ export default function SideNav({
     }>
     {index2}</NavButton>    
     
-    <NavButton>
+    <NavButton onClick = {
+      ()=>r.push("/quinoa")
+    }>
     {index3}</NavButton>    
     
-    <NavButton>
-    {index4}</NavButton>
 
   </SideCont>
 }

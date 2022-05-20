@@ -56,7 +56,7 @@ export default function RecipesDetail({
         ></SideNav>
 
       <IngBox 
-      img={"/beans3s.jpg"}
+      img={"/quinoa3s.jpg"}
       common={commDatabase[2]}
       rare1={rareDatabase[2][0]}
       rare2={rareDatabase[2][1]}

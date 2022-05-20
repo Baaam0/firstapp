@@ -52,8 +52,7 @@ export default function RecipesDetail({
         bcl="#A2B0D3"
         index1="Tofu"
         index2="Beans"
-        index3="Grains"
-        index4="Quinoa"
+        index3="Quinoa"
         ></SideNav>
 
       <IngBox 

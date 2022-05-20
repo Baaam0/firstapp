@@ -26,6 +26,7 @@ align-items:end;
 export default function Recipes(){
     return (
     <StyledRecipes>
+         <MainMenu></MainMenu>
         <h1>Recipes</h1>
 
         <SideNav 
