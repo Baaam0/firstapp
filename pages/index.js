@@ -20,21 +20,21 @@ export default function Home() {
       <Head>
         <title>Mindful eating</title>
         <meta name="description" content="Mindful eating guide website" />
-        <link rel="icon" href="/logo/navbar_logo.png" />
+        <link rel="icon" href="/Logo/navbar_logo.png" />
       </Head>
 
       <main>
 
-      {/* <ImgCard
-        img="/logo/horizontal_logo.png"
+      <ImgCard
+        img="/Logo/horizontal_logo.png"
         bg="white"
-      /> */}
-
+      />
+{/* 
       <br/>
 
       <ImgTag img='/logo/horizontal_logo.png' marg='20px 0 20px 0'/>
 
-      <br/>
+      <br/> */}
 
       <ImgCard
       title="Mindful eating for you and us"
