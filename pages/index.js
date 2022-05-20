@@ -7,6 +7,7 @@ import Navbar from '../comps/Navbar';
 // import MainMenu from "../comps/MainMenu";
 import Questions from '../comps/Questions';
 import TopBtn from '../comps/TopBtn';
+import ImgTag from '../comps/ImgTag';
 
 import { useRouter } from 'next/router';
 
@@ -24,10 +25,16 @@ export default function Home() {
 
       <main>
 
-      <ImgCard
+      {/* <ImgCard
         img="/logo/horizontal_logo.png"
         bg="white"
-      />
+      /> */}
+
+      <br/>
+
+      <ImgTag img='/logo/horizontal_logo.png' marg='20px 0 20px 0'/>
+
+      <br/>
 
       <ImgCard
       title="Mindful eating for you and us"
