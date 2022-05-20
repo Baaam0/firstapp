@@ -47,17 +47,20 @@ export default function LocalFood(){
 
         <LocalDetailItemCont>
             <Local_detail_item
-                img="/localfood/2_vegan_logo/knowWhatToSupport.jpg"
+                img="/localfood/4_seasonal_food/seasonalCalendar.jpg"
                 bgc="#fff"
-                itemttl="1. Uber Eats"
-                itemurl="https://www.ubereats.com/ca/category/vancouver-bc/vegan"
-                itemheading="ー　Vegan Category"
-                itemtxt="There is a Vegan category"
+                itemttl="1. Calendar"
+                itemurl="https://canadianfoodfocus.org/whats-in-season/"
+                itemtxt="Despite our cold winters, there are many fruits and vegetables that we can enjoy at different times of the year.
+
+                Farmers and researchers continue to improve varieties and growing techniques, and with the help of greenhouses and other improved growing technology, or through improved breeding through plant science, they have been able to extend the time a fruit or vegetable is available.
+
+                You can view the charts on this website to learn more about each, including types, how to buy, how to prepare, and even how they grow in Canada."
             />
 
         </LocalDetailItemCont>
 
-        <Navbar 
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>

@@ -47,17 +47,45 @@ export default function LocalFood(){
 
         <LocalDetailItemCont>
             <Local_detail_item
-                img="/localfood/2_vegan_logo/knowWhatToSupport.jpg"
+                img="/localfood/3_made_in_canada/productOfCanada.jpg"
                 bgc="#fff"
-                itemttl="1. Uber Eats"
-                itemurl="https://www.ubereats.com/ca/category/vancouver-bc/vegan"
-                itemheading="ー　Vegan Category"
-                itemtxt="There is a Vegan category"
+                itemttl="1. Product of Canada"
+                itemtxt="All, or nearly all, of the food, processing and labour used to make the food is Canadian.
+
+                ・Grown or raised by Canadian farmers
+
+                AND
+
+                ・Prepared and packaged by Canadian food companies.
+
+                A food can still be labelled - Product of Canada- if it contains small amounts of imported food, such as spices, food additives, vitamins, and flavorings."
+            />
+
+            <Local_detail_item
+                img="/localfood/3_made_in_canada/domAndImportedIngredients.jpg"
+                bgc="#E0E8FD"
+                itemttl="2. Made in Canada from domestic and imported ingredients"
+                itemtxt="・A Canadian company was involved in some of the preparation of the food,
+
+                AND
+
+                ・It contains some food grown by Canadian farmers, and some food that's been imported."
+            />
+
+            <Local_detail_item
+                img="/localfood/3_made_in_canada/importedIngredients.jpg"
+                bgc="#fff"
+                itemttl="3. Made in Canada from imported ingredients"
+                itemtxt="・A Canadian company was involved in some of the preparation of the food
+
+                AND
+
+                ・The contents of the food were imported."
             />
 
         </LocalDetailItemCont>
 
-        <Navbar 
+        <Navbar
         img3="/active_logo3.png"
         />
     </LocalWrap>

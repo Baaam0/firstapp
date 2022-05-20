@@ -67,11 +67,11 @@ const ItemTxt = styled.p`
 export default function Local_detail_item({
     img="/recipes1.png",
     tcl="#08213E",
-    bgc="#E0E8FD",
-    itemttl="1. Uber Eats",
-    itemurl="https://www.ubereats.com/ca/category/vancouver-bc/vegan",
-    itemheading="ー　Vegan Category",
-    itemtxt="There is a Vegan category"
+    bgc="#fff",
+    itemttl="",
+    itemurl="",
+    itemheading="",
+    itemtxt=""
 }){
 
     const r = useRouter();
