@@ -13,6 +13,8 @@ const NavBottom = styled.div`
     background-color: white;
     z-index: 101;
     width: 100%;
+        position: sticky;
+    bottom: 0;
 `;
 
 const Button = styled.button`
