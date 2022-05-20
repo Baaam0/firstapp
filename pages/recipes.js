@@ -10,7 +10,7 @@ import {imgDatabase,titleDatabase,paraDatabase} from '../data/recipes_content';
 import styled from 'styled-components';
 
 const StyledRecipes = styled.div`
-
+    // width: 100%;
 `;
 
 const BgChange = styled.div`
@@ -29,7 +29,7 @@ export default function Recipes(){
         <MainMenu></MainMenu>
         <h1>Recipes</h1>
 
-        <SideNav 
+        <SideNav
         bcl="#A2B0D3"
         index1="Tofu"
         index2="Beans"
@@ -39,7 +39,7 @@ export default function Recipes(){
         <TofuComp />
 
         <BgChange>
-            <RecipeCard 
+            <RecipeCard
             img={imgDatabase[0]}
             title={titleDatabase[0]}
             paragraph={paraDatabase[0]}
@@ -60,9 +60,9 @@ export default function Recipes(){
             />
 
         </BgChange>
-    
+
     <TopBtn />
-    <Navbar 
+    <Navbar
     img1="/active_logo1.png"
     />
 
