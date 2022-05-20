@@ -50,7 +50,7 @@ export default function LocalFood(){
                 img="/localfood/2_vegan_logo/knowWhatToSupport.jpg"
                 bgc="#fff"
                 itemttl="1. Importance of knowing what you want to support"
-                itemtxt="Educating yourself what logo/label/mark/farmers/companies/organization you want to support is the most important than deciding what to buy ONLY by looking at the logo etc. as some good organizations/companies might not be able to get the certified logo as it’s expensive to get certified."
+                itemtxt="Educating yourself what logo, label, mark, farmers, companies, organization you want to support is the most important than deciding what to buy ONLY by looking at the logo etc. as some good organizations/companies might not be able to get the certified logo as it’s expensive to get certified."
             />
 
             <Local_detail_item
