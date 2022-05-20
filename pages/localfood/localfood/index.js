@@ -6,10 +6,13 @@ import SideNav from "../../../comps/Navbar/SideNav";
 
 const LocalWrap = styled.div`
     background: #E0E8FD;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
 `;
+
+const Container = styled.div`
+display:flex;
+flex-direction:column;
+align-items:end;
+`
 
 const LocalCardCont = styled.div`
     display:flex;
@@ -32,6 +35,9 @@ const LocalPageTtl = styled.h2`
 export default function LocalFood(){
     return (
     <LocalWrap>
+
+        <Container>
+
         <MainMenu></MainMenu>
 
         <HowToCatTtl>Local Food</HowToCatTtl>
@@ -82,6 +88,9 @@ export default function LocalFood(){
                 path="/farmToTable"
             />
         </LocalCardCont>
+
+        </Container>
+        
         <Navbar 
         img3="/active_logo3.png"
         />
