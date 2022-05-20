@@ -10,7 +10,7 @@ const LocalWrap = styled.div`
     display: flex;
     flex-direction: column;
     align-items: end;
-    overflow:hidden;
+    // overflow:hidden;
 `;
 
 const LocalDetailItemCont = styled.ul`
